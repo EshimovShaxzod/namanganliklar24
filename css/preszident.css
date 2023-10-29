@@ -1,0 +1,99 @@
+
+.site-article__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-article{
+    display: flex;
+    flex-direction: column;
+}
+
+.site-article_news{
+    width: 794px;
+    margin-right: 20px;
+}
+
+.site-article__title{
+    margin-bottom: 13px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.site-article__time{
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    color: #7688A4;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.article-prezident___img{
+    margin-bottom: 17px;
+}
+
+.site-article__text{
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.site-article__desc{
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.site-article__mirziyoyev{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.site-article__link{
+    display: inline-block;
+    margin-right: 13px;
+    margin-bottom: 20px;
+    color: #28508E;
+    font-size: 18px;
+}
+
+
+/* topic section start */
+
+.topic-news{
+    margin-bottom: 34px;
+}
+
+.topic-news__title{
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.topic-news__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topic-news__item{
+    width: 386px;
+}
+
+.topic-news__item-img{
+    margin-bottom: 11px;
+}
+
+.topic-news__item-title{
+    margin-bottom: 11px;
+    color: #202020;
+    font-size: 17px;
+    font-weight: 500;
+}
