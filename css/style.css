@@ -201,28 +201,28 @@ a{
     width: 50px;
     height: 50px;
     margin-right: 23px;
-   content: url("../virus.svg");
+   content: url("../images/virus.svg");
 }
 
 .covid-info__item:nth-child(2)::before{
     width: 38px;
     height: 40px;
     margin-right: 17px;
-   content: url("../medical-mask.svg");
+   content: url("../images/medical-mask.svg");
 }
 
 .covid-info__item:nth-child(3)::before{
     width: 38px;
     height: 40px;
     margin-right: 19px;
-   content: url("../smile.svg");
+   content: url("../images/smile.svg");
 }
 
 .covid-info__item:nth-child(4)::before{
     width: 38px;
     height: 38px;
     margin-right: 19px;
-   content: url("../Vector.svg");
+   content: url("../images/Vector.svg");
 }
 
 
