@@ -43,7 +43,7 @@
                         <img class="site-header__flag-img" src="./images/russia-flag.svg" width="20" height="20" alt="russia flag logo">
                         <span class="sitre-header__flag-text">РУ</span>
                     </div>
-                    <a class="site-header__btn" href="#">
+                    <a class="site-header__btn" role="button" href="#">
                         <img class="site-header__btn-img" src="./images/telegram-logo.svg" width="20" height="20" alt="telegram logo">
                         <span class="site-header__btn-text">Подписатся</span>
                     </a>
@@ -404,5 +404,29 @@
                 </div>
             </div>
         </footer>
+        
+        <!-- modal start -->
+        
+        <div class="modal">
+            <button class="modal-close">
+                <svg class="x-btn" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.5 2.65L13.35 0.5L8 5.85L2.65 0.5L0.5 2.65L5.85 8L0.5 13.35L2.65 15.5L8 10.15L13.35 15.5L15.5 13.35L10.15 8L15.5 2.65Z" fill="#BABFC2"/>
+                </svg> 
+            </button>
+            <p class="modal-text">Подписывайтесь на наш канал в Telegram 
+                и будьте всегда в курсе самых последних новостей:
+            </p>
+            <a class="site-header__btn site-modal__btn" href="#">
+                <img class="site-header__btn-img" src="./images/telegram-logo.svg" width="20" height="20" alt="telegram logo">
+                <span class="site-header__btn-text">Подписатся</span>
+            </a>
+        </div>
+        <div class="modal-overlay">
+            
+        </div>
+        
+        <!-- modal end -->
+
+        <script src="index.js"></script>
     </body>
     </html>
